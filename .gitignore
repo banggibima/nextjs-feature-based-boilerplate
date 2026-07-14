@@ -1,0 +1,31 @@
+# dependencies
+node_modules
+
+# build
+.next
+out
+
+# cache
+.cache
+.eslintcache
+*.tsbuildinfo
+
+# logs
+logs
+*.log
+bun-debug.log*
+
+# environment
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+.cursor
+
+# system
+.DS_Store
+Thumbs.db
